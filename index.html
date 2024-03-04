@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Ejercicio 9 - Tailwind CSS</title>
+</head>
+<body class="bg-gray-100">
+
+    <section class="text-white h-screen flex items-center" style="background-image: url(resort.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Bienvenido al Hotel Chateaux</h1>
+            <p class="text-lg mb-8">Descubre la comodidad y elegancia en cada rincón.</p>
+            <a href="#alojamientos" class="bg-white text-blue-900 hover:bg-blue-700 hover:text-white py-2 px-6 rounded-full uppercase font-semibold">Explorar Alojamientos</a>
+        </div>
+    </section>
+
+
+    <section id="alojamientos" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Nuestros Alojamientos</h2>
+            <p class="text-lg mb-8">Encuentra la habitación perfecta para tu estancia.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-8">
+                    <img src="suite-lujo.jpg" alt="Habitación 1" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Suite de Lujo</h3>
+                        <p class="text-gray-700">Experimenta el lujo en nuestra suite exclusiva con vistas increíbles.</p>
+                        <a href="#" class="block mt-4 bg-blue-500 text-white hover:bg-blue-700 py-2 px-4 rounded-full uppercase font-semibold">Reservar Ahora</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-8">
+                    <img src="familiar.jpg" alt="Habitación 2" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Habitación Familiar</h3>
+                        <p class="text-gray-700">Ideal para familias, con espacio cómodo para todos.</p>
+                        <a href="#" class="block mt-4 bg-blue-500 text-white hover:bg-blue-700 py-2 px-4 rounded-full uppercase font-semibold">Reservar Ahora</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg mb-8">
+                    <img src="junio.jpg" alt="Habitación 3" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Suite Junior</h3>
+                        <p class="text-gray-700">Una suite elegante con todas las comodidades que necesitas.</p>
+                        <a href="#" class="block mt-4 bg-blue-500 text-white hover:bg-blue-700 py-2 px-4 rounded-full uppercase font-semibold">Reservar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="py-16 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Contáctanos</h2>
+            <p class="text-lg mb-8">Estamos aquí para ayudarte. ¡Contáctanos ahora!</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Dirección</h3>
+                    <p class="text-gray-700">San Salvador, El Salvadir</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Teléfono</h3>
+                    <p class="text-gray-700">+503 7548 5598</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Correo Electrónico</h3>
+                    <p class="text-gray-700">chateaux@mormont.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Nuestros Sponsors</h2>
+            <p class="text-lg mb-8">Agradecemos a nuestros increíbles sponsors por su apoyo continuo.</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <img src="gobierno.png"  class="rounded-lg shadow-lg mx-auto">
+                <img src="gobierno.png"  class="rounded-lg shadow-lg mx-auto">
+                <img src="gobierno.png"  class="rounded-lg shadow-lg mx-auto">
+                <img src="gobierno.png"  class="rounded-lg shadow-lg mx-auto">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Quiénes Somos</h2>
+            <p class="text-lg mb-8">Conoce más sobre nuestra historia y compromiso.</p>
+            <p class="text-lg mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum quaerat explicabo eveniet dignissimos rerum, quos tempora minus aliquid iusto itaque laborum earum, perferendis esse impedit aut officia! Ut, reprehenderit?</p>
+            
